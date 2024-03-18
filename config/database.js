@@ -4,7 +4,7 @@ let connection = mysql.createConnection({
    host:        'localhost',
    user:        'root',
    password:    '',
-   database:    'db_express_basic'
+   database:    'database_express_basic'
  });
 
 connection.connect(function(error){
